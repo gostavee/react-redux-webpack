@@ -1,0 +1,39 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "Super simple react app with webpack,redux and es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "concurrently lite-server webpack --watch"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack",
+    "es6"
+  ],
+  "author": "Ahmed Sobhy",
+  "license": "MIT",
+  "presets": "es2015",
+  "devDependencies": {
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.4.2",
+    "concurrently": "^3.5.0",
+    "css-loader": "^0.17.0",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.9.0",
+    "img-loader": "^2.0.0",
+    "lite-server": "^2.3.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6"
+  }
+}
