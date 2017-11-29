@@ -16,7 +16,7 @@ This is a simple react app example using react, redux,es6 and webpack.
 
 ### Installing
 
-after installing node and npm, open the command line, navigate to the project directory
+after installing node and npm, download the repo, open the command line, navigate to the project directory
 
 for example in windows
 ```
